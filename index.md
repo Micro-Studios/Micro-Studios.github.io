@@ -4,7 +4,21 @@ You can use the [editor on GitHub](https://github.com/Micro-Studios/Micro-Studio
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-#### Test from hui
+# Test from hui
+*This is hui*
+**This is Hui again**
+I  ***can*** combine them
+
+* Item 1
+* Itme 2
+  * Item 2a
+  * Item 2b
+  
+1. Item 1
+2. Item 2
+   2.1 Item 2a
+   2.2 Item 2b
+   
 
 ### Markdown
 
