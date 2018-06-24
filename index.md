@@ -26,6 +26,9 @@ Format: ![Alt Text](url)
       1. Item 4c
    1. Item 3b
    
+http://github.com - automatic!
+[GitHub](http://github.com)
+   
 
 ### Markdown
 
