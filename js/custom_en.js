@@ -27,8 +27,7 @@ function load_page(){
 					//alert('其它语言')
 					break;
 		}
+	}
 }
 
 load_page()
-
-
