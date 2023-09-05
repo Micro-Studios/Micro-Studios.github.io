@@ -12,7 +12,7 @@ function load_page(){
         var lang = lang.substr(0, 5); //获取浏览器配置语言前4位
         if (lang == "zh") {
             // 根据获取的语言参数进行对应跳转
-            window.location.replace('http://localhost:1313/cn');
+            window.location.replace('https://micro-studios.com/cn/');
         } 
     } else {
         exit;
