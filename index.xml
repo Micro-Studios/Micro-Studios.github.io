@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Micro-Studios</title>
+    <link>/</link>
+    <description>Recent content in Home on Micro-Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons</title>
+      <link>/lessons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/</guid>
+      <description>FreeRTOS Lessons On ESP32 SDK: This full series has been uploaded into udemy: Click here to visit.
+Lesson 01: Introduction; Lesson 02: Setup ESP32 Command Line Compile Environment; Lesson 03: System Startup Flow; Lesson 04: Task Create and Delete; Lesson 05: Task Input Parameter; Lesson 06: Task Priority; Lesson 07: Task Suspend and Resume; Lesson 08: Task List; Lesson 09: Task Stack Setting; Lesson 10: Task Watch Dog; Lesson 11: Queue Delivery Integer Data; Lesson 12: Queue Space; Lesson 13: Queue SendToFront vs SendToBack; Lesson 14: Queue Delivery Struct Data; Lesson 15: Queue Delivery String Data; Lesson 16: Queue Multiple In Single Out; Lesson 17: Queue Set; Lesson 18: Queue Mailbox; Lesson 19: Software Timer 01; Lesson 20: Software Timer 02; Lesson 21: Software Timer 03; Lesson 22: Binary Semaphore; Lesson 23: Counting Semaphore; Lesson 24: Mutex; Lesson 25: Recursive Mutex; Lesson 26: Event Group Wait; Lesson 27: Event Group Sync; Lesson 28: Notification Sync; Lesson 29: Notification Value; Lesson 30: Stream Buffer 01; Lesson 31: Stream Buffer 02; Lesson 32: Message Buffer 01; Lesson 33: Message Buffer 02; ESP32-C3 JTAG Debug: This full series has been uploaded into udemy: Click here to visit.</description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>/download/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/download/</guid>
+      <description> UDPTools.zip TCPTools.zip Bmp2Hex.zip Wav2Hex.zip </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lessons - Micro-Studios</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		
+		<meta property="og:title" content="Lessons" />
+<meta property="og:description" content="FreeRTOS Lessons On ESP32 SDK: This full series has been uploaded into udemy: Click here to visit.
+Lesson 01: Introduction; Lesson 02: Setup ESP32 Command Line Compile Environment; Lesson 03: System Startup Flow; Lesson 04: Task Create and Delete; Lesson 05: Task Input Parameter; Lesson 06: Task Priority; Lesson 07: Task Suspend and Resume; Lesson 08: Task List; Lesson 09: Task Stack Setting; Lesson 10: Task Watch Dog; Lesson 11: Queue Delivery Integer Data; Lesson 12: Queue Space; Lesson 13: Queue SendToFront vs SendToBack; Lesson 14: Queue Delivery Struct Data; Lesson 15: Queue Delivery String Data; Lesson 16: Queue Multiple In Single Out; Lesson 17: Queue Set; Lesson 18: Queue Mailbox; Lesson 19: Software Timer 01; Lesson 20: Software Timer 02; Lesson 21: Software Timer 03; Lesson 22: Binary Semaphore; Lesson 23: Counting Semaphore; Lesson 24: Mutex; Lesson 25: Recursive Mutex; Lesson 26: Event Group Wait; Lesson 27: Event Group Sync; Lesson 28: Notification Sync; Lesson 29: Notification Value; Lesson 30: Stream Buffer 01; Lesson 31: Stream Buffer 02; Lesson 32: Message Buffer 01; Lesson 33: Message Buffer 02; ESP32-C3 JTAG Debug: This full series has been uploaded into udemy: Click here to visit." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/lessons/" /><meta property="article:section" content="" />
+
+
+
+		<meta itemprop="name" content="Lessons">
+<meta itemprop="description" content="FreeRTOS Lessons On ESP32 SDK: This full series has been uploaded into udemy: Click here to visit.
+Lesson 01: Introduction; Lesson 02: Setup ESP32 Command Line Compile Environment; Lesson 03: System Startup Flow; Lesson 04: Task Create and Delete; Lesson 05: Task Input Parameter; Lesson 06: Task Priority; Lesson 07: Task Suspend and Resume; Lesson 08: Task List; Lesson 09: Task Stack Setting; Lesson 10: Task Watch Dog; Lesson 11: Queue Delivery Integer Data; Lesson 12: Queue Space; Lesson 13: Queue SendToFront vs SendToBack; Lesson 14: Queue Delivery Struct Data; Lesson 15: Queue Delivery String Data; Lesson 16: Queue Multiple In Single Out; Lesson 17: Queue Set; Lesson 18: Queue Mailbox; Lesson 19: Software Timer 01; Lesson 20: Software Timer 02; Lesson 21: Software Timer 03; Lesson 22: Binary Semaphore; Lesson 23: Counting Semaphore; Lesson 24: Mutex; Lesson 25: Recursive Mutex; Lesson 26: Event Group Wait; Lesson 27: Event Group Sync; Lesson 28: Notification Sync; Lesson 29: Notification Value; Lesson 30: Stream Buffer 01; Lesson 31: Stream Buffer 02; Lesson 32: Message Buffer 01; Lesson 33: Message Buffer 02; ESP32-C3 JTAG Debug: This full series has been uploaded into udemy: Click here to visit.">
+
+<meta itemprop="wordCount" content="1588">
+<meta itemprop="keywords" content="" />
+
+	<link rel="stylesheet" href="/css/style.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	
+		
+</head>
+<body class="body">
+	<header class="header">
+	
+	<div class="logo logo--mixed">
+		<div class="container">
+			<a class="logo__link" href="/" title="Micro-Studios" rel="home">
+				<div class="logo__item logo__imagebox">
+						<img class="logo__img" src="/img/logo_01.png" alt="Logo image">
+					</div><div class="logo__item logo__text">
+						<div class="logo__title">Micro-Studios</div>
+						<div class="logo__tagline">Technology is an art!</div>
+					</div>
+			</a>
+		</div>
+	</div>
+
+</header>
+
+<nav class="menu">
+	<div class="container">
+		<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+			<span class="menu__btn-title" tabindex="-1">Menu</span>
+		</button>
+		<ul class="menu__list">
+			<li class="menu__item">
+				<a class="menu__link" href="/">
+					
+					<span class="menu__text">Home</span>
+					
+				</a>
+			</li>
+			<li class="menu__item menu__item--active">
+				<a class="menu__link" href="/lessons/">
+					
+					<span class="menu__text">Lessons</span>
+					
+				</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/download/">
+					
+					<span class="menu__text">Download</span>
+					
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+
+	<div class="container wrapper flex">
+		<div class="primary">
+		
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h3 class="post__title">Lessons</h3>
+			
+		</header><div class="content post__content clearfix">
+			<h6 id="freertos-lessons-on-esp32-sdk">FreeRTOS Lessons On ESP32 SDK:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/freertos-lessons-on-esp32-sdk/?referralCode=876A2A8F0D220E72119C">Click here to visit</a>.</p>
+<ol>
+<li>Lesson 01: Introduction;</li>
+<li>Lesson 02: Setup ESP32 Command Line Compile Environment;</li>
+<li>Lesson 03: System Startup Flow;</li>
+<li>Lesson 04: Task Create and Delete;</li>
+<li>Lesson 05: Task Input Parameter;</li>
+<li>Lesson 06: Task Priority;</li>
+<li>Lesson 07: Task Suspend and Resume;</li>
+<li>Lesson 08: Task List;</li>
+<li>Lesson 09: Task Stack Setting;</li>
+<li>Lesson 10: Task Watch Dog;</li>
+<li>Lesson 11: Queue Delivery Integer Data;</li>
+<li>Lesson 12: Queue Space;</li>
+<li>Lesson 13: Queue SendToFront vs SendToBack;</li>
+<li>Lesson 14: Queue Delivery Struct Data;</li>
+<li>Lesson 15: Queue Delivery String Data;</li>
+<li>Lesson 16: Queue Multiple In Single Out;</li>
+<li>Lesson 17: Queue Set;</li>
+<li>Lesson 18: Queue Mailbox;</li>
+<li>Lesson 19: Software Timer 01;</li>
+<li>Lesson 20: Software Timer 02;</li>
+<li>Lesson 21: Software Timer 03;</li>
+<li>Lesson 22: Binary Semaphore;</li>
+<li>Lesson 23: Counting Semaphore;</li>
+<li>Lesson 24: Mutex;</li>
+<li>Lesson 25: Recursive Mutex;</li>
+<li>Lesson 26: Event Group Wait;</li>
+<li>Lesson 27: Event Group Sync;</li>
+<li>Lesson 28: Notification Sync;</li>
+<li>Lesson 29: Notification Value;</li>
+<li>Lesson 30: Stream Buffer 01;</li>
+<li>Lesson 31: Stream Buffer 02;</li>
+<li>Lesson 32: Message Buffer 01;</li>
+<li>Lesson 33: Message Buffer 02;</li>
+</ol>
+<h6 id="esp32-c3-jtag-debug">ESP32-C3 JTAG Debug:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/esp32-c3-jtag-debug/?referralCode=1D16D9317AEBBF8C0B00">Click here to visit</a>.</p>
+<ol>
+<li>Lesson 01: JTAG Interface Review;</li>
+<li>Lesson 02: OpenOCD Review;</li>
+<li>Lesson 03: GDB Review;</li>
+<li>Lesson 04: Prepare Hardware and Software;</li>
+<li>Lesson 05: GDB Break Command;</li>
+<li>Lesson 06: GDB Watch Command;</li>
+<li>Lesson 07: GDB Next, Step, Until Command;</li>
+<li>Lesson 08: GDB Print Command;</li>
+<li>Lesson 09: GDB Display Command;</li>
+<li>Lesson 10: GDB Examine Command;</li>
+<li>Lesson 11: GDB Ptype, Whatis Command;</li>
+<li>Lesson 12: GDB Stack Command;</li>
+<li>Lesson 13: GDB Jump Command;</li>
+<li>Lesson 14: GDB Set Command;</li>
+<li>Lesson 15: GDB Define Command;</li>
+</ol>
+<h6 id="esp32-wifi-lessons">ESP32 WIFI Lessons:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/esp32-wifi-lessons/?referralCode=79D1F09680279EABEC6C">Click here to visit</a>.</p>
+<ol>
+<li>Lesson 01: Introduction;</li>
+<li>Lesson 02: WIFI flow for AP mode;</li>
+<li>Lesson 03: WIFI flow for station mode;</li>
+<li>Lesson 04: TCP client on lwIP socket;</li>
+<li>Lesson 05: TCP server on lwIP socket;</li>
+<li>Lesson 06: UDP vs TCP;</li>
+<li>Lesson 07: UDP client;</li>
+<li>Lesson 08: UDP server;</li>
+<li>Lesson 09: Http protocol;</li>
+<li>Lesson 10: Http URL;</li>
+<li>Lesson 11: Http get;</li>
+<li>Lesson 12: Http post;</li>
+<li>Lesson 13: Http put;</li>
+<li>Lesson 14: Http request;</li>
+<li>Lesson 15: WebSocket Introduction;</li>
+<li>Lesson 16: WebSocket Data Frame Format;</li>
+<li>Lesson 17: WebSocket Server 01 — Shake Hand;</li>
+<li>Lesson 18: WebSocket Server 02 — Read Data;</li>
+<li>Lesson 19: WebSocket Server 03 — Write Data;</li>
+<li>Lesson 20: WebSocket Script 01;</li>
+<li>Lesson 21: WebSocket Script 02;</li>
+<li>Lesson 22: WebSocket Client 01;</li>
+<li>Lesson 23: WebSocket Client 02;</li>
+<li>Lesson 24: MQTT 01 — Introduction;</li>
+<li>Lesson 25: MQTT 02 — Protocol;</li>
+<li>Lesson 26: MQTT 03 — Client;</li>
+<li>Lesson 27: MQTT 04 — Server;</li>
+<li>Lesson 28: ESPNow 01 — Introduction;</li>
+<li>Lesson 29: ESPNow 02 — Data Format;</li>
+<li>Lesson 30: ESPNow 03 — Get Mac Address;</li>
+<li>Lesson 31: ESPNow 04 — Send Data;</li>
+<li>Lesson 32: ESPNow 05 — Receive Data;</li>
+<li>Lesson 33: ESPNow 06 — Broadcast;</li>
+</ol>
+<h6 id="wifi--bluetooth-esp32">WiFi &amp; Bluetooth ESP32:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/esp32-lesson-season-01/?referralCode=8EA671DF06A323374FA5">Click here to visit</a>.</p>
+<ol>
+<li>ESP32 Lesson 01: Feature Review</li>
+<li>ESP32 Lesson 02: Minimum System</li>
+<li>ESP32 Lesson 03: Setup Compile Environment</li>
+<li>ESP32 Lesson 04: Hello World</li>
+<li>ESP32 Lesson 05: GPIO LED</li>
+<li>ESP32 Lesson 06: GPIO Interrupt</li>
+<li>ESP32 Lesson 07: Timer</li>
+<li>ESP32 Lesson 08: UART</li>
+<li>ESP32 Lesson 09: DAC</li>
+<li>ESP32 Lesson 10: ADC</li>
+<li>ESP32 Lesson 11: I2C</li>
+<li>ESP32 Lesson 12: I2C Further Discussion</li>
+<li>ESP32 Lesson 13: I2C LSM6DS3 Sensor Full Function Coding</li>
+<li>ESP32 Lesson 14: Integrate I2C OLED Original Driver</li>
+<li>ESP32 Lesson 15: Drive I2C OLED by u8g2 GUI Library</li>
+<li>ESP32 Lesson 16: SPI</li>
+<li>ESP32 Lesson 17: SDCard</li>
+<li>ESP32 Lesson 18: NVS</li>
+<li>ESP32 Lesson 19: I2S 01 — I2S Protocol and ESP32 I2S Interface</li>
+<li>ESP32 Lesson 20: I2S 02 — Drive Speaker by Internal DAC</li>
+</ol>
+<h6 id="wifi-esp8266">WiFi ESP8266:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/esp8266-wifi-module-software-programming/?referralCode=F09CC8758D6A786E8467">Click here to visit</a>.</p>
+<ol>
+<li>Meeting with ESP8266 WiFi Chip</li>
+<li>Minimum ESP8266 System</li>
+<li>Connect_ESP8266 by AT Command</li>
+<li>ESP8266 Data Pass Through to PC in Station Mode</li>
+<li>ESP8266 Data Pass Through to PC in AP Mode</li>
+<li>ESP8266 Web Server</li>
+<li>ESP8266 Setup SDK Compile Environment</li>
+<li>ESP8266 NONOS SDK UART Hello World</li>
+<li>ESP8266 NONOS SDK Software Timer</li>
+<li>ESP8266 NONOS SDK Hardware Timer</li>
+<li>ESP8266 NONOS SDK GPIO LED Hello World</li>
+<li>ESP8266 NONOS SDK GPIO Interrupt</li>
+<li>ESP8266 NONOS SDK I2C</li>
+<li>ESP8266 NONOS SDK PWM</li>
+<li>ESP8266 NONOS SDK Connect WiFi Router</li>
+<li>ESP8266 NONOS SDK Connect TCP IP Server</li>
+<li>ESP8266 NONOS SDK AP Mode</li>
+</ol>
+<h6 id="fpga-drive-spi-tft-lcd">FPGA Drive SPI TFT LCD:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/fpga-drive-spi-tft-lcd/?referralCode=C7421458E0B353CB5CFF">Click here to visit</a>.</p>
+<ol>
+<li>System Target</li>
+<li>System Analysis</li>
+<li>LCD RST Module 01: Analysis</li>
+<li>LCD RST Module 02: Coding</li>
+<li>LCD RST Module 03: Simulation</li>
+<li>SPI Driver Module 01: Analysis</li>
+<li>SPI Driver Module 02: Coding</li>
+<li>SPI Driver Module 03: Simulation</li>
+<li>LCD Driver Module 01: Interface &amp; Variables</li>
+<li>LCD Driver Module 02: LCD RST Task</li>
+<li>LCD Driver Module 03: LCD INIT Task</li>
+<li>LCD Driver Module 04: LCD DISP RGB Task</li>
+<li>LCD Driver Module 05: LCD DISP PIC Task</li>
+<li>LCD Driver Module 06: Bmp2Hex Tool</li>
+<li>LCD Top Module</li>
+<li>Target Test</li>
+</ol>
+<h6 id="fpga-piano">FPGA Piano:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/fpga-piano/?referralCode=06C585CAF0873220899A">Click here to visit</a>.</p>
+<ol>
+<li>System Target</li>
+<li>Make The Buzzer Buzzing</li>
+<li>System Analysis</li>
+<li>Buzzer Module Status Machine</li>
+<li>Buzzer Module Coding</li>
+<li>Buzzer Module Simulation</li>
+<li>Key Module Status Machine</li>
+<li>One Key Module Coding</li>
+<li>One Key Module Simulation</li>
+<li>Key Module Solution1 Coding</li>
+<li>Key Module Solution1 Simulation</li>
+<li>Key Module Solution2 Coding</li>
+<li>Key Module Solution2 Simulation</li>
+<li>LED Module Status Machine</li>
+<li>LED Module Coding</li>
+<li>LED Module Simulation</li>
+<li>Top Module Coding</li>
+<li>Top Module Simulation</li>
+<li>Run On Board</li>
+</ol>
+<h6 id="fpga-drive-uart">FPGA Drive Uart:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/fpga-drive-uart/?referralCode=2880155AF912CEA49105">Click here to visit</a>.</p>
+<ol>
+<li>System Target</li>
+<li>System Analysis</li>
+<li>UART Protocol</li>
+<li>Edge Detection</li>
+<li>UART RX State Machine</li>
+<li>UART RX Coding</li>
+<li>UART RX Simulation</li>
+<li>UART TX State Machine</li>
+<li>UART TX Coding</li>
+<li>UART TX Simulation</li>
+<li>Top Module Coding and Simulation</li>
+<li>Run on Board</li>
+</ol>
+<h6 id="fpga-filter">FPGA Filter:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/fpga-filter/?referralCode=789D07836EB261DC330D">Click here to visit</a>.</p>
+<ol>
+<li>FPGA Mean (Average) Filter 01 – Introduction</li>
+<li>FPGA Mean (Average) Filter 02 – Coding</li>
+<li>FPGA Mean (Average) Filter 03 – Simulation</li>
+<li>FPGA Median Filter 01 – Introduction</li>
+<li>FPGA Median Filter 02 – Sort Module Coding</li>
+<li>FPGA Median Filter 03 – Sort Module Simulation</li>
+<li>FPGA Median Filter 04 – Median Module Coding</li>
+<li>FPGA Median Filter 05 – Median Module Simulation</li>
+<li>FPGA Gaussian Filter 01 – Introduction</li>
+<li>FPGA Gaussian Filter 02 – Coding</li>
+<li>FPGA Gaussian Filter 03 – Simulation</li>
+</ol>
+<h6 id="verilog-on-intel-altera-fpga">Verilog on Intel (Altera) FPGA:</h6>
+<p>This full series has been uploaded into udemy: <a href="https://www.udemy.com/course/verilog-on-intel-altera-fpga/?referralCode=03AE54A5BA3F8D3F3F0E">Click here to visit</a>.</p>
+<ol>
+<li>Compile Environment Setup—Quartus &amp; ModelSim</li>
+<li>Simplest LED “Hello, World!”</li>
+<li>Simplest Testbench</li>
+<li>ModelSim</li>
+<li>USB Blaster</li>
+<li>Clock Divider 01 – Analysis &amp; Coding</li>
+<li>Clock Divider 02 – Simulation</li>
+<li>Clock Divider 03 – PLL IP</li>
+<li>FIFO 01 – Introduction</li>
+<li>FIFO 02 – Synchronous FIFO 01: Analysis</li>
+<li>FIFO 03 – Synchronous FIFO 02: Coding</li>
+<li>FIFO 04 – Synchronous FIFO 03: Testbench</li>
+<li>FIFO 05 – Synchronous FIFO 04: One Extra Bit</li>
+<li>FIFO 06 – Asynchronous FIFO: FIFO IP</li>
+<li>Sequence Detector 01 – Introduction</li>
+<li>Sequence Detector 02 – Register Solution 01</li>
+<li>Sequence Detector 03 – Register Solution 02</li>
+<li>Sequence Detector 04 – State Machine Solution 01</li>
+<li>Sequence Detector 05 – State Machine Solution 02</li>
+<li>Sequence Detector 06 – State Machine Solution 03</li>
+<li>Traffic Lights Controller 01 – System Target</li>
+<li>Traffic Lights Controller 02 – Coding &amp; Simulation</li>
+<li>FPGA Division 01: Solution 01</li>
+<li>FPGA Division 02: Solution 02 – Analysis</li>
+<li>FPGA Division 03: Solution 02 – Coding</li>
+<li>FPGA Division 04: Solution 02 – Simulation</li>
+<li>FPGA Division 05: Solution 02 – Quartus Project</li>
+<li>FPGA Division 06: Solution 03 – Analysis</li>
+<li>FPGA Division 07: Solution 03 – Coding</li>
+<li>FPGA Division 08: Solution 03 – Simulation</li>
+<li>FPGA Division 09: Solution 03 – Quartus Project</li>
+<li>FPGA Division 10: Solution 04 – Analysis</li>
+<li>FPGA Division 11: Solution 04 – Coding</li>
+<li>FPGA Division 12: Solution 04 – Simulation</li>
+<li>FPGA Division 13: Solution 04 – Quartus Project</li>
+<li>FPGA Division 14: Solution 05 – LPM Divide IP 01</li>
+<li>FPGA Division 15: Solution 05 – LPM Divide IP 02</li>
+<li>FPGA Drive 7 Segment Display 01: Introduction &amp; System Block</li>
+<li>FPGA Drive 7 Segment Display 02: Driver IC Working Flow</li>
+<li>FPGA Drive 7 Segment Display 03: Seg7_Driver() Module State Machine</li>
+<li>FPGA Drive 7 Segment Display 04: Seg7_Driver() Module Coding</li>
+<li>FPGA Drive 7 Segment Display 05: Seg7_Driver() Module Simulation</li>
+<li>FPGA Drive 7 Segment Display 06: Seg7_Ctrl() Module Analysis</li>
+<li>FPGA Drive 7 Segment Display 07: Seg7_Ctrl() Module Coding</li>
+<li>FPGA Drive 7 Segment Display 08: Seg7_Ctrl() Module Simulation</li>
+<li>FPGA Drive 7 Segment Display 09: Seg7_Data() Module Analysis</li>
+<li>FPGA Drive 7 Segment Display 10: Seg7_Data() Module Coding</li>
+<li>FPGA Drive 7 Segment Display 11: Seg7_Data() Module Simulation</li>
+<li>FPGA Drive 7 Segment Display 12: Seg7_Top() Module Coding &amp; Simulation</li>
+<li>FPGA Drive 7 Segment Display 13: Run On Board</li>
+<li>FPGA Drive IIC EEPROM 01： System Target</li>
+<li>FPGA Drive IIC EEPROM 02：System Analysis</li>
+<li>FPGA Drive IIC EEPROM 03：IIC Byte Write Protocol</li>
+<li>FPGA Drive IIC EEPROM 04：IIC Byte Write State Machine</li>
+<li>FPGA Drive IIC EEPROM 05：IIC Clock Coding</li>
+<li>FPGA Drive IIC EEPROM 06：IIC Clock Simulation</li>
+<li>FPGA Drive IIC EEPROM 07：IIC Byte Write Coding 01</li>
+<li>FPGA Drive IIC EEPROM 08：IIC Byte Write Coding 02</li>
+<li>FPGA Drive IIC EEPROM 09：IIC Byte Write Simulation 01</li>
+<li>FPGA Drive IIC EEPROM 10：IIC Byte Write Simulation 02</li>
+<li>FPGA Drive IIC EEPROM 11：IIC Byte Read Protocol</li>
+<li>FPGA Drive IIC EEPROM 12：IIC Byte Read State Machine</li>
+<li>FPGA Drive IIC EEPROM 13：IIC Byte Read Coding</li>
+<li>FPGA Drive IIC EEPROM 14：IIC Byte Read Simulation</li>
+<li>FPGA Drive IIC EEPROM 15：IIC User Module State Machine</li>
+<li>FPGA Drive IIC EEPROM 16：IIC User Module Coding</li>
+<li>FPGA Drive IIC EEPROM 17：IIC User Module Simulation</li>
+<li>FPGA Drive IIC EEPROM 18：IIC Top Module Coding</li>
+<li>FPGA Drive IIC EEPROM 19：Run On Board</li>
+<li>FPGA Drive TTP223 One Touch Sensor</li>
+<li>FPGA Drive Vibration Sensor</li>
+<li>FPGA Drive Light Sensor</li>
+<li>FPGA Drive RGB Breathing Light</li>
+</ol>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+
+		</div>
+		<aside class="sidebar"><div class="widget-recent widget">
+	<h4 class="widget__title">Email</h4>
+	<script src="/js/custom_en.js"></script>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link">Micro at Micro-Studios.com</a></li>
+			<li class="widget__item"><a class="widget__link">(replace at with @)</a></li>
+		</ul>
+	</div>
+</div>
+
+
+</aside>
+	</div>
+	<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2023 Micro-Studios.
+			<span class="footer__copyright-credits"> </span>
+			<span><a href="/">Technology is an art!</a></span>
+		</div>
+		
+
+	</div>
+</footer>
+
+	<script async defer src="/js/menu.js"></script>
+	
+	
+	
+</body>
+</html>
