@@ -3,20 +3,30 @@ var flag = false;
 function load_page(){
     if (!flag){
         flag = true;
-        var type = navigator.appName; //BOM对象获取浏览器名称
-        if (type == "Netscape") {
-            var lang = navigator.language.toLowerCase(); //获取浏览器配置语言，支持非IE浏览器
-        } else {
-            var lang = navigator.browserLanguage.toLowerCase(); //获取浏览器配置语言，支持IE5+
-        };
-        var lang = lang.substr(0, 5); //获取浏览器配置语言前4位
-        if((lang == "zh")||(lang == "zh_cn")) {
-            // 根据获取的语言参数进行对应跳转
-            window.location.replace('https://micro-studios.com/cn/');
-        } 
-    } else {
-        exit;
-    }
+		    switch (navigator.language.toLowerCase()) {
+				
+				case "zh-tw":
+					//alert("中文繁体(中国台湾)");
+					break;
+					
+				case "zh-hk":
+					//alert("中文繁体(中国香港)");
+					break;
+					
+				case "zh-cn":
+					//alert("中文简体");
+					window.location.replace('https://micro-studios.com/cn/');
+					break;
+					
+				case "zh":
+					//alert("中文");
+					window.location.replace('https://micro-studios.com/cn/');
+					break;
+					
+				default:
+					//alert('其它语言')
+					break;
+		}
 }
 
 load_page()
