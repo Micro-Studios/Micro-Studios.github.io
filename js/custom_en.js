@@ -10,7 +10,7 @@ function load_page(){
             var lang = navigator.browserLanguage.toLowerCase(); //获取浏览器配置语言，支持IE5+
         };
         var lang = lang.substr(0, 5); //获取浏览器配置语言前4位
-        if (lang == "zh") {
+        if((lang == "zh")||(lang == "zh_cn")) {
             // 根据获取的语言参数进行对应跳转
             window.location.replace('https://micro-studios.com/cn/');
         } 
