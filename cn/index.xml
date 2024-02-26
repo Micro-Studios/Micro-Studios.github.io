@@ -15,14 +15,5 @@
       <description>UDPTools.zip TCPTools.zip Bmp2Hex.zip Wav2Hex.zip</description>
     </item>
     
-    <item>
-      <title>开发板</title>
-      <link>/cn/board/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/cn/board/</guid>
-      <description>ESP32C3 M4 Type-C开发板 ESP32C3 M3 Type-C开发板 ESP32S3 M2 Type-C开发板</description>
-    </item>
-    
   </channel>
 </rss>
