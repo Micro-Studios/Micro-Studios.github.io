@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Feature Board on Micro-Studios</title>
-    <link>/</link>
-    <description>Recent content in Feature Board on Micro-Studios</description>
+    <title>Boards on Micro-Studios</title>
+    <link>/boards/</link>
+    <description>Recent content in Boards on Micro-Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Boards</title>
-      <link>/boards/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/boards/</guid>
-      <description> N1 Board N2 Board </description>
-    </item>
-    
-    <item>
-      <title>Download</title>
-      <link>/download/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/download/</guid>
-      <description> UDPTools.zip TCPTools.zip Bmp2Hex.zip Wav2Hex.zip </description>
-    </item>
-    
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/boards/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>N1 Board</title>
       <link>/boards/n1/</link>

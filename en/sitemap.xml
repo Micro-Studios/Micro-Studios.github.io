@@ -1,6 +1,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+      <loc>/boards/</loc>
+      <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>/boards/</loc>
+      <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
       <loc>/download/</loc>
       <lastmod>2014-04-09T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -13,6 +23,26 @@
                   hreflang="en"
                   href="/download/"
                   />
+    </url>
+    
+    <url>
+      <loc>/</loc>
+      <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="cn"
+                  href="/cn/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="/"
+                  />
+    </url>
+    
+    <url>
+      <loc>/boards/n1/</loc>
+      <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
@@ -30,17 +60,7 @@
     </url>
     
     <url>
-      <loc>/</loc>
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="cn"
-                  href="/cn/"
-                  />
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="en"
-                  href="/"
-                  />
+      <loc>/boards/n2/</loc>
     </url>
     
     <url>
