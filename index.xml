@@ -34,7 +34,18 @@ It wires out the 32 GPIO pins, TXD pin and RXD pin from the module.</description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/boards/</guid>
-      <description> N1 Board N2 Board </description>
+      <description> N1 Board N2 Board F1 Board </description>
+    </item>
+    
+    <item>
+      <title>F1 Board</title>
+      <link>/boards/f1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/boards/f1/</guid>
+      <description>F1 Intel (Altera) FPGA Board The F1 board is developed by Michael HU for his Verilog on Intel (Altera) FPGA Lessons.
+It has one Cyclone EP4CE6 FPGA, one W25Q64 64Mb serial NOR flash, one LED, One key, and two 30x2 output pins interface.
+This set includes one USB Blaster JTAG tool and one Micro-USB power supply cable. It can be shipped around the world. You can drop an email to “micro at micro-studios.</description>
     </item>
     
     <item>
